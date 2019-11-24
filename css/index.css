@@ -1,4 +1,31 @@
  a:hover{
-    color: #28a745 !important;
+    color: #ff1744 !important;
     /*color: #28a745 !important;*/
+}
+
+
+/* ******** Footer CSS Cods ******** */
+#footer{
+    background-color: #343a40;
+}
+#footer p{
+    color: white;
+}
+#socialNetwork  li{
+    list-style-type: none;
+    display: inline;
+}
+#footer a{
+    color: white;
+}
+
+#usefulLinks a{
+    text-decoration: none;
+}
+hr{
+    padding: 0;
+    margin: 0;
+    width: 20%;
+    height: 1px;
+    float: right;
 }
