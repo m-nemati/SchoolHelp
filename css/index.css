@@ -2,13 +2,24 @@ body{
     font-family: iransans;
 }
 
+/* ************** Navigationbar CSS Cods ********* */
+nav a{
+    color: white !important;
+}
 a:hover{
     color: #ff1744 !important;
-    /*color: #28a745 !important;*/
 }
 
+/* ************** Header CSS Cods *************** */
 
-/* ******** Footer CSS Cods ******** */
+/* ******* Section: About US CSS Code *********** */
+#aboutUs img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/* ************** Footer CSS Cods *************** */
 #footer{
     background-color: #343a40;
 }
@@ -37,4 +48,8 @@ hr{
     width: 20%;
     height: 1px;
     float: right;
+}
+
+#copyRight{
+    text-align: center;
 }
