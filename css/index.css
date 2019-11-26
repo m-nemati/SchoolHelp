@@ -1,4 +1,8 @@
- a:hover{
+body{
+    font-family: iransans;
+}
+
+a:hover{
     color: #ff1744 !important;
     /*color: #28a745 !important;*/
 }
