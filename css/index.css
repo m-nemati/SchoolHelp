@@ -14,6 +14,7 @@ a:hover{
 }
 #footer p{
     color: white;
+    font-size: 14px;
 }
 #socialNetwork  li{
     list-style-type: none;
@@ -21,6 +22,10 @@ a:hover{
 }
 #footer a{
     color: white;
+    font-size: 14px;
+}
+#usefulLinks{
+    color: #ff1744 ;
 }
 
 #usefulLinks a{
