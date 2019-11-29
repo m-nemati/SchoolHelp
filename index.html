@@ -38,7 +38,7 @@
 </head>
 <body class="rtl">
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark stickyNavbar">
         <a class="navbar-brand" href="#">لوگوی سایت</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -50,9 +50,10 @@
               <a class="nav-link" href="#"><i class="fa fa-home" style="font-size: 28px;"></i> <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">لینک</a>
+              <a class="nav-link" href="#">نرم افزار</a>
             </li>
             <li class="nav-item dropdown">
+              <!--
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 زیر منو
               </a>
@@ -62,6 +63,10 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">  لینک3</a>
               </div>
+            </li>
+          -->
+          <li class="nav-item">
+              <a class="nav-link" href="#aboutUs" tabindex="-1" aria-disabled="true">آموزش</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#aboutUs" tabindex="-1" aria-disabled="true">درباره ما</a>
@@ -121,23 +126,44 @@
       </a>
     </div>
     <!-- Content-->
+    <section id="software">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <p><a href="http://s7.picofile.com/file/8379944876/Tosifi.zip.html" target="_blank">دانلود فایل نصب برنامه توصیفی</a></p>
+          </div>
+          <div class="col-sm-3">
+            <p><a href="http://s6.picofile.com/file/8379946518/Rahnamaaee.zip.html" target="_blank">دانلود فایل نصب برنامه راهنمایی</a></p>
+          </div>
+          <div class="col-sm-3">
+            <p><a href="http://s7.picofile.com/file/8379948284/Dana.zip.html" target="_blank">دانلود فایل نصب برنامه دانا</a></p>
+          </div>
+          <div class="col-sm-3">
+            <p><a href="http://s7.picofile.com/file/8379950292/Dipsali.zip.html" target="_blank">دانلود فایل نصب برنامه دیپسالی</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="aboutUs">
-        <div style="background-color: #76ff03;" class="container">
+        <div class="container">
             <div class="row">
-                <p>درباره ما:</p>
             </div>
           <div class="row">
             <div class="col-sm-6">
-              <img src="includes/images/mnemati.png" alt="M.Nemati">
-              <p>مصطفی نعمتی</p>
-              <p>کارشناس فناوری اطلاعات</p>
-              <p>@m_nemati1398</p>
+              <div id="aboutCenter" class="myCenter">
+                  <img src="includes/images/mnemati.png" alt="M.Nemati">
+              </div>
+              <p class="myCenter fromTop">مصطفی نعمتی</p>
+              <p class="myCenter fromTop">کارشناس فناوری اطلاعات</p>
+              <p class="myCenter fromTop"><a href="https://t.me/m_nemati1398">M_Nemati2002@</a></p>
             </div>
             <div class="col-sm-6">
-              <img src="includes/images/mnemati.png" alt="Hamidreza">
-              <p>حمیدرضا ضیایی</p>
-              <p>کارشناس سنجش و ارزشیابی</p>
-              <p>@Hamidreza2010</p>
+              <div id="aboutCenter" class="myCenter">
+                  <img  src="includes/images/mnemati.png" alt="Hamidreza">
+              </div>
+              <p class="myCenter fromTop">حمیدرضا ضیایی</p>
+              <p class="myCenter fromTop">کارشناس سنجش و ارزشیابی</p>
+              <p class="myCenter fromTop"><a href="https://t.me/Hamidreza2010">Hamidreza2010@</a></p>
             </div>
           </div>
         </div>
@@ -166,25 +192,53 @@
           <div class="col-sm-6">
             <p>مکان ما در گوگل:</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1336.4968869280983!2d49.52436609261896!3d36.892890895289625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ff50f84d46079d3%3A0x4770ad8d505399f!2z2KfYr9in2LHZhyDYotmF2YjYsti0INmIINm-2LHZiNix2LQg2YXZhti32YLZhyDYsdit2YXYqiDYotio2KfYryDZiCDYqNmE2Yjaqdin2Ko!5e1!3m2!1sen!2sae!4v1574619277713!5m2!1sen!2sae" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-            <p>تلفن: </p>
-            <p>آدرس: </p>
+            <p>ایمیل: Schoolhelp@gmail.com </p>
+            <p>آدرس: استان گیلان - شهرستان رودبار - منطقه رحمت آباد و بلوکات</p>
           </div>
         </div>
         <div class="row">
           <div class="col-sm-12">
-            <hr style="background-color: #d50000">
-            <hr style="background-color: #d500f9">
-            <hr style="background-color: #448aff">
-            <hr style="background-color: #76ff03">
-            <hr style="background-color: #eeff41">
+            <hr style="background-color: white">
+            <br>
             <p id="copyRight"> &copy 1398 - تمامی حقوق محفوظ است.</p>
           </div>
         </div>
       </div>
     </footer>
-    
+     <!-- To Top Button -->
+     <div id="totop">
+      <i class="fas fa-angle-double-up" style="font-size:70px; color: #448aff;"></i>
+      </div>
+    <!-- Show Modal -->
+      <div id="myModal" class="modal fade">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                  
+                  <h2>
+                   توجه
+                  </h2>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                    <p>
+                        سایت در حال تکمیل شدن می باشد و بزودی منتشر می شود.
+                    </p>
+                    <p>
+                      School Help
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  </div>
+            </div>
+        </div>
+    </div>
     <!-- Load JS Files -->
     <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
 </body>
